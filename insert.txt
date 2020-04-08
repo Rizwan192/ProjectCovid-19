@@ -1,0 +1,20 @@
+	var CameraId='123';
+	var userid='43';
+	var username='ratul';
+	var usertimestap='3-18-2020 1105';
+
+	firebase.database().ref('Live_tracking/'+CameraId + '/').push({
+			p_id : userid,
+			p_name : username,
+			p_timestap : usertimestap
+			
+			 }, function(error) {
+		    if (error) {
+		    	alert("Failed to Save data");
+		      // The write failed...
+		    } else {
+		    	window.location.href = "apply_application_add.html";
+		    	//alert("Successfully Saved");
+		      // Data saved successfully!
+		    }
+		  });
