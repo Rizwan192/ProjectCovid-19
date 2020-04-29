@@ -1,0 +1,16 @@
+
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDQaIGlboz9sB7jZVgPuyXL77ulhvdwCh0",
+    authDomain: "stickynote-3a600.firebaseapp.com",
+    databaseURL: "https://stickynote-3a600.firebaseio.com",
+    projectId: "stickynote-3a600",
+    storageBucket: "stickynote-3a600.appspot.com",
+    messagingSenderId: "724014413905",
+    appId: "1:724014413905:web:31ff9dfb21cf4d63c72070"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
