@@ -1,0 +1,10 @@
+import firebase from firebase
+  firebaseConfig = {
+    'apiKey': "",
+    'authDomain': "",
+    'databaseURL': "",
+    'projectId': "",
+    'storageBucket': "",
+    'messagingSenderId': "",
+    'appId': ""
+  firebase.initializeApp(firebaseConfig);
